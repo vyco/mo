@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>Home</title>
+  <link rel="stylesheet" href="T1.css">
+  <link href="https://fonts.googleapis.com/css?family=Cabin:400,700" rel="stylesheet">
+  <script src="https://use.typekit.net/smi4fyb.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <script src="https://use.typekit.net/hvd0xbp.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+<link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+<script src="https://use.fontawesome.com/5a3a7fdc30.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+<script src="https://use.typekit.net/mbj6jkj.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+<link href='http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Proza+Libre" rel="stylesheet">
+</head>
+<body>
+  <div class="head-wrap flex flex--space-around align-center">
+    <h1 class="flex flex--start align-start logo">MARGARET OLUSEGUN <br><span> SOLICITORS &amp; COMMISSIONER FOR OATHS</span></h1>
+    <nav class="global flex flex--space-between align-end"><a href="">Home</a><a href="">Contact Us</a><a href="">About Us</a><a href="">Services</a><a href=""class="lightgrey">Legal Notice</a></nav>
+  </div>
+  <div class="complete-wrapper flex flex--center align-center rows">
+    <div class="first flex columns">
+      <h1 class="m flex flex--center align-center"><span>“ </span> LAW FOR THE PEOPLE <span> "</span></h1>
+      <h2 class="m flex flex--center align-center">Margaret Olusegun runs a friendly legal practice,<br>providing high quality services based on traditional values.<br><br>If you think that Margaret Olusegun can be of assistance to you,<br>please contact Margaret who will be happy to discuss<br>your requirements and give you an estimate of the likely costs.</h2>
+    <div class="twob flex flex--center align--center rows">
+      <a href=""><button class="ba">Book An Appointment</button></a>
+      <a href=""><button class="lm">Learn More</button></a>
+    </div>
+    </div>
+  </div>
+  <section id="sec"class="locker flex flex--center align-center columns">
+    <h1 class="fo flex flex--center align-center"> OUR SERVICES</h1>
+    <h2 class="fo flex flex--center align-center"> *Private Service Only</h2>
+    <div id="firstv2"class=" tab flex flex--start align-start ">
+        <p class="tablinks" onclick="openCity(event, 'Civil Matters')">Civil Matters</p>
+        <p class="tablinks" onclick="openCity(event, 'Commercial Property')">Commercial Property</p>
+        <p class="tablinks" onclick="openCity(event, 'Conveyancing')">Conveyancing - Residential</p>
+        <p class="tablinks" onclick="openCity(event, 'Immigration Law')">Immigration Law - Nationality And Citizenship</p>
+        <p class="tablinks" onclick="openCity(event, 'Landlord &amp; Tenant')">Landlord &amp; Tenant</p>
+        <p class="tablinks" onclick="openCity(event, 'Litigation')">Litigation</p>
+        <p class="tablinks" onclick="openCity(event, 'Power of Attorney &amp; Wills')">Power of Attorney &amp; Wills</p>
+      </div>
+      <div id="Civil Matters" class="tabcontent">
+        <span  class="o" onclick="this.parentElement.style.display='none'">x</span>
+        <h3>Civil Matters</h3>
+        <h4>We can handle your Civil Matters.</h4>
+        <li>jklk</li>
+      </div>
+
+      <div id="Commercial Property" class="tabcontent">
+        <span class="o" onclick="this.parentElement.style.display='none'">x</span>
+        <h3>Commercial Property</h3>
+        <h4>Paris is the capital of France.</h4>
+      </div>
+
+      <div id="Conveyancing" class="tabcontent">
+        <span class="o" onclick="this.parentElement.style.display='none'">x</span>
+        <h3>Conveyancing - Residential</h3>
+        <h4>Tokyo is the capital of Japan.</h4>
+      </div>
+
+      <div id="Immigration Law" class="tabcontent">
+        <span class="o" onclick="this.parentElement.style.display='none'">x</span>
+        <h3>Immigration Law - Nationality And Citizenship</h3>
+        <h4>Tokyo is the capital of Japan.</h4>
+      </div>
+
+      <div id="Landlord &amp; Tenant" class="tabcontent">
+        <span class="o" onclick="this.parentElement.style.display='none'">x</span>
+        <h3>Landlord &amp; Tenant</h3>
+        <h4>Tokyo is the capital of Japan.</h4>
+      </div>
+
+      <div id="Litigation" class="tabcontent">
+        <span class="o" onclick="this.parentElement.style.display='none'">x</span>
+        <h3>Litigation</h3>
+        <h4>Tokyo is the capital of Japan.</h4>
+      </div>
+
+      <div id="Power of Attorney &amp; Wills" class="tabcontent">
+        <span class="o" onclick="this.parentElement.style.display='none'">x</span>
+        <h3>Power of Attorney &amp; Wills</h3>
+        <h4>Tokyo is the capital of Japan.</h4>
+      </div>
+  </section>
+
+<script>
+$('.tablinks').click(function(){
+    var h = parseInt($('#sec').css('height'), 10);
+    if(h != 300)
+    {
+        $('#sec').css('height', '500px');
+    }
+    else
+    {
+        $('#sec').css('height', '');
+    }
+});
+</script>
+
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+document.getElementById("defaultOpen").click();
+</script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+
+  <section class="companies flex flex--end align-end rows">
+
+    <div class="form2 flex-center align-center columns">
+
+      <h1 class="flex flex--center align-center columns">Reviews</h1>
+      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+      <h1 class="flex flex--center align-center columns">Reviews</h1>
+      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+  </div>
+
+
+  <div class="form1 flex flex--end align-end columns">
+    <h1 class="bookonline flex flex--center align-center columns"> Enquiry Form</h1>
+    <form>
+    <div class="row-1 flex flex--end align-end columns">
+      <div class="flex-unit flex flex--end align-end rows">
+        First Name: <input type="text" name="FirstName"><br>
+      </div>
+      <div class="flex-unit flex flex--end align-end rows">
+        Surname: <input  type="text" name="Surname">
+      </div>
+      <div class="flex-unit flex flex--end align-end rows">
+        Telephone: <input type="number" name="Telephone">
+      </div>
+      <div class="flex-unit flex flex--start align-start rows">
+        Type of Service: <br><select class="select" style="font-family: FontAwesome, sans-serif;">
+                          <option value="Civil Matters">Civil Matters</option>
+                            <option value="Commercial Property">Commercial Property</option>
+                              <option value="Conveyancing">Conveyancing</option>
+                                <option value="Immigation Law">Immigation Law</option>
+                                    <option value="Landlord &amp; Tenant">Landlord &amp; Tenant</option>
+                                      <option value="Litigation">Litigation</options>
+                                        <option value="Power of Attorney &amp; Wills">Power of Attorney &amp; Wills</options>
+
+        </select>
+
+      </div>
+    </div>
+      <div class="flex-unit flex flex--end align-end rows">
+        Enquiry:<input class="em" type="text" name="Enquiry">
+      </div>
+      <div class="flex-unit flex flex--end align-end columns">
+       <button type="submit">Submit</button>
+      </div>
+  </div>
+
+
+  </section>
+    <section class="SM flex flex--center align-center columns">
+      <div class="row-1 flex flex--center align-center rows">
+
+        <div class="flex-unit flex flex--center align-center columns">
+          <h1>For more enquries regarding our services:</h1>
+          <a href="mailto:margaret@msegun.com?Subject=Enquiry%20From%20Website" >Send Email</a>
+        </div>
+
+      </div>
+
+    </section>
+    <footer class="foot flex flex--start align-center rows">
+    <div class="col flex flex--start align-start columns">
+      <p>Legal Information and Disclaimer: Margaret Olusegun Ltd is regulated by the Solicitors Regulation Authority. SRA No 461551.
+3 The View, Upper Abbey Wood, Upper Belverdere, London, SE2 0DX.  Tel +44 800 999 4246. Fax +44 1322 431 807. DX: 151365 Bexleyheath. E-mail:margaret@msegun.com
+© 2017 Margaret Olusegun Ltd</p>
+
+    </div>
+
+    <div class="un flex flex--end align-center columns ">
+    <p>© 2017 Margaret Olusegun Ltd. All Rights Reserved</p>
+
+  </div>
+    </footer></a>
+
+</body>

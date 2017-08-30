@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25504",
 "files": {
+	"\/.gitattributes": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitattributes",
+		"oF": 0
+		},
 	"\/_flex.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -30,20 +36,6 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"\/bower_components\/newFlex\/.bower.json": {
-		"ft": 524288,
-		"oA": 2,
-		"oAP": "\/bower_components\/newFlex\/.bower.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/bower_components\/newFlex\/.gitattributes": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bower_components\/newFlex\/.gitattributes",
-		"oF": 0
-		},
 	"\/bower_components\/newFlex\/_flex.css": {
 		"aP": 1,
 		"bl": 0,
@@ -60,13 +52,11 @@
 		"oAP": "\/bower_components\/newFlex\/_flex.css.map",
 		"oF": 0
 		},
-	"\/images\/aclogo.png": {
-		"ft": 32768,
-		"iS": 7918,
-		"oA": 0,
-		"oAP": "\/images\/aclogo.png",
-		"oF": 0,
-		"opt": 0
+	"\/CNAME": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/CNAME",
+		"oF": 0
 		},
 	"\/images\/earth.svg": {
 		"ft": 2097152,
@@ -86,30 +76,6 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/images\/hbtLogo.png": {
-		"ft": 32768,
-		"iS": 8224,
-		"oA": 0,
-		"oAP": "\/images\/hbtLogo.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/images\/melogo.png": {
-		"ft": 32768,
-		"iS": 3274,
-		"oA": 0,
-		"oAP": "\/images\/melogo.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/images\/oyplogo.png": {
-		"ft": 32768,
-		"iS": 22972,
-		"oA": 0,
-		"oAP": "\/images\/oyplogo.png",
-		"oF": 0,
-		"opt": 1
-		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -124,6 +90,43 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/mobile.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/mobile.html",
+		"oF": 0
+		},
+	"\/mobilestyle.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/mobilestyle.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"\/T1.css": {
 		"aP": 1,
@@ -155,7 +158,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 522449849,
-	"displayValue": "Margaret O",
+	"displayValue": "mo",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-owl"
 	},

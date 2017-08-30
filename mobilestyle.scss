@@ -4,7 +4,7 @@ body{
   margin:0;
   padding:0;
 }
-.nav_midbod{
+.top_head{
   background: grey;
   padding: 30px;
   .logo{
@@ -15,8 +15,8 @@ body{
     letter-spacing: 2px;
     span{
       color: black;
-      font-size: 14px;
-      padding-top: 30px;
+      font-size: 15px;
+
     }
   }
   #lines{
@@ -87,9 +87,14 @@ body{
       text-align: center;
   }
 }
+.nav_midbod{
+  background: grey;
+  padding: 50px 0px;
 .complete-wrapper{
+  background: grey;
+  padding: 30px;
   h1{
-    font-size: 30px;
+    font-size: 70px;
     font-family: "europa",sans-serif;
     font-weight: bold;
     color: white;
@@ -109,21 +114,22 @@ body{
     font-weight: lighter;
     color: black;
     text-align: center;
-    font-size: 13px;
+    font-size: 30px;
 
   }
 
   button{
-    padding: 12px;
+    padding: 25px;
     border: 2px silver solid;
     border-radius: 20px;
     background: silver;
-    margin-right: 5px;
+    margin-right: 10px;
+    font-size: 15px;
     font-family: "europa",sans-serif;
     font-weight: lighter;
   }
 }
-
+}
 .locker{
   padding: 50px;
   background-image:url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");

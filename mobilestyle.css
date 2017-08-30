@@ -57,24 +57,23 @@ body {
   margin: 0;
   padding: 0; }
 
-.nav_midbod {
+.top_head {
   background: grey;
   padding: 30px; }
-  .nav_midbod .logo {
+  .top_head .logo {
     font-family: "europa",sans-serif;
     font-weight: lighter;
     font-size: 20px;
     color: white;
     letter-spacing: 2px; }
-    .nav_midbod .logo span {
+    .top_head .logo span {
       color: black;
-      font-size: 14px;
-      padding-top: 30px; }
-  .nav_midbod #lines {
+      font-size: 15px; }
+  .top_head #lines {
     height: 5px;
     width: 35px;
     border-bottom: 4px solid #fff; }
-  .nav_midbod .sidenav {
+  .top_head .sidenav {
     height: 100%;
     width: 0;
     position: fixed;
@@ -88,7 +87,7 @@ body {
     bottom: 0;
     left: 0;
     right: 0; }
-    .nav_midbod .sidenav .o a {
+    .top_head .sidenav .o a {
       list-style: none;
       text-decoration: none;
       font-weight: bold;
@@ -100,23 +99,23 @@ body {
       margin-left: 30px;
       padding: 10px;
       color: black; }
-      .nav_midbod .sidenav .o a:hover {
+      .top_head .sidenav .o a:hover {
         color: grey; }
-  .nav_midbod .sidenav ul {
+  .top_head .sidenav ul {
     padding-left: 0px; }
-  .nav_midbod .sidenav .nav {
+  .top_head .sidenav .nav {
     color: black;
     display: block;
     text-align: center;
     margin-bottom: 20px;
     padding: 15px;
     letter-spacing: 2px; }
-    .nav_midbod .sidenav .nav ul {
+    .top_head .sidenav .nav ul {
       list-style: none; }
-  .nav_midbod .sidenav a:hover {
+  .top_head .sidenav a:hover {
     text-decoration: none;
     color: #f1f1f1; }
-  .nav_midbod .sidenav .closebtn {
+  .top_head .sidenav .closebtn {
     padding-top: 60px;
     font-size: 10px;
     margin-left: 25px;
@@ -125,35 +124,40 @@ body {
     text-decoration: none;
     text-align: center; }
 
-.complete-wrapper h1 {
-  font-size: 30px;
-  font-family: "europa",sans-serif;
-  font-weight: bold;
-  color: white;
-  letter-spacing: 3px;
-  text-align: center;
-  margin-bottom: 0px;
-  margin-top: 0px; }
-  .complete-wrapper h1 span {
-    font-family: 'Proza Libre', sans-serif;
-    font-weight: 900;
-    text-align: center; }
-
-.complete-wrapper h2 {
-  font-family: "europa",sans-serif;
-  font-weight: lighter;
-  color: black;
-  text-align: center;
-  font-size: 13px; }
-
-.complete-wrapper button {
-  padding: 12px;
-  border: 2px silver solid;
-  border-radius: 20px;
-  background: silver;
-  margin-right: 5px;
-  font-family: "europa",sans-serif;
-  font-weight: lighter; }
+.nav_midbod {
+  background: grey;
+  padding: 50px 0px; }
+  .nav_midbod .complete-wrapper {
+    background: grey;
+    padding: 30px; }
+    .nav_midbod .complete-wrapper h1 {
+      font-size: 70px;
+      font-family: "europa",sans-serif;
+      font-weight: bold;
+      color: white;
+      letter-spacing: 3px;
+      text-align: center;
+      margin-bottom: 0px;
+      margin-top: 0px; }
+      .nav_midbod .complete-wrapper h1 span {
+        font-family: 'Proza Libre', sans-serif;
+        font-weight: 900;
+        text-align: center; }
+    .nav_midbod .complete-wrapper h2 {
+      font-family: "europa",sans-serif;
+      font-weight: lighter;
+      color: black;
+      text-align: center;
+      font-size: 30px; }
+    .nav_midbod .complete-wrapper button {
+      padding: 25px;
+      border: 2px silver solid;
+      border-radius: 20px;
+      background: silver;
+      margin-right: 10px;
+      font-size: 15px;
+      font-family: "europa",sans-serif;
+      font-weight: lighter; }
 
 .locker {
   padding: 50px;

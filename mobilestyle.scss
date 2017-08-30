@@ -196,17 +196,29 @@ body{
 }
 
 .Form{
-  padding: 20px;
+  padding: 70px;
   background: #DBD6D5;
   .bookonline{
     font-family: "europa",sans-serif;
     font-weight: normal;
+
   }
   .flex-unit{
+    font-size: 20px;
     font-family: "europa",sans-serif;
     font-weight: lighter;
     margin-bottom: 20px;
+    button{
+      font-family: "europa",sans-serif;
+      font-weight: lighter;
+      padding: 20px;
+      border-radius: 20px;
+      background: white;
+      border: 2px solid white;
+      cursor:pointer;
+    }
   }
+
 }
 
 .SM{
@@ -214,7 +226,7 @@ body{
   h1{
   font-family: "europa",sans-serif;
   font-weight: lighter;
-  font-size: 15px;
+  font-size: 35px;
 }
 a{
 
@@ -230,7 +242,7 @@ a{
 }
 
 footer{
-  padding: 20px;
+  padding: 30px;
   background: black;
   color: white;
   font-family: "europa",sans-serif;

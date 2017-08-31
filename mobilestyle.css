@@ -221,7 +221,8 @@ body {
     font-family: "europa",sans-serif;
     font-weight: normal; }
   .Form .flex-unit {
-    font-size: 20px;
+    font-size: 15px;
+    letter-spacing: 2px;
     font-family: "europa",sans-serif;
     font-weight: lighter;
     margin-bottom: 20px; }

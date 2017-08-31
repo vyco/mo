@@ -38,6 +38,9 @@ body{
       bottom: 0;
       left: 0;
       right:0;
+      ul{
+        list-style: none;
+      }
       .o{
         a{
           list-style: none;
@@ -45,7 +48,7 @@ body{
           font-weight: bold;
           text-transform: uppercase;
           letter-spacing: 2px;
-          font-size: 10px;
+          font-size: 30px;
           font-family: "europa",sans-serif;
           font-weight: bold;
           margin-left: 30px;
@@ -79,7 +82,7 @@ body{
   }
   .sidenav .closebtn {
   	padding-top: 60px;
-      font-size: 10px;
+      font-size: 20px;
       margin-left: 25px;
       color: black;
       cursor: pointer;
@@ -91,10 +94,8 @@ body{
   background: grey;
   padding: 50px 0px;
 .complete-wrapper{
-  background: grey;
-  padding: 30px;
   h1{
-    font-size: 70px;
+    font-size: 20px;
     font-family: "europa",sans-serif;
     font-weight: bold;
     color: white;
@@ -114,7 +115,8 @@ body{
     font-weight: lighter;
     color: black;
     text-align: center;
-    font-size: 30px;
+    font-size: 19px;
+    line-height: 2em;
 
   }
 

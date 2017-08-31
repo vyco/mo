@@ -87,13 +87,15 @@ body {
     bottom: 0;
     left: 0;
     right: 0; }
+    .top_head .sidenav ul {
+      list-style: none; }
     .top_head .sidenav .o a {
       list-style: none;
       text-decoration: none;
       font-weight: bold;
       text-transform: uppercase;
       letter-spacing: 2px;
-      font-size: 10px;
+      font-size: 30px;
       font-family: "europa",sans-serif;
       font-weight: bold;
       margin-left: 30px;
@@ -117,7 +119,7 @@ body {
     color: #f1f1f1; }
   .top_head .sidenav .closebtn {
     padding-top: 60px;
-    font-size: 10px;
+    font-size: 20px;
     margin-left: 25px;
     color: black;
     cursor: pointer;
@@ -127,37 +129,35 @@ body {
 .nav_midbod {
   background: grey;
   padding: 50px 0px; }
-  .nav_midbod .complete-wrapper {
-    background: grey;
-    padding: 30px; }
-    .nav_midbod .complete-wrapper h1 {
-      font-size: 70px;
-      font-family: "europa",sans-serif;
-      font-weight: bold;
-      color: white;
-      letter-spacing: 3px;
-      text-align: center;
-      margin-bottom: 0px;
-      margin-top: 0px; }
-      .nav_midbod .complete-wrapper h1 span {
-        font-family: 'Proza Libre', sans-serif;
-        font-weight: 900;
-        text-align: center; }
-    .nav_midbod .complete-wrapper h2 {
-      font-family: "europa",sans-serif;
-      font-weight: lighter;
-      color: black;
-      text-align: center;
-      font-size: 30px; }
-    .nav_midbod .complete-wrapper button {
-      padding: 25px;
-      border: 2px silver solid;
-      border-radius: 20px;
-      background: silver;
-      margin-right: 10px;
-      font-size: 15px;
-      font-family: "europa",sans-serif;
-      font-weight: lighter; }
+  .nav_midbod .complete-wrapper h1 {
+    font-size: 20px;
+    font-family: "europa",sans-serif;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px; }
+    .nav_midbod .complete-wrapper h1 span {
+      font-family: 'Proza Libre', sans-serif;
+      font-weight: 900;
+      text-align: center; }
+  .nav_midbod .complete-wrapper h2 {
+    font-family: "europa",sans-serif;
+    font-weight: lighter;
+    color: black;
+    text-align: center;
+    font-size: 19px;
+    line-height: 2em; }
+  .nav_midbod .complete-wrapper button {
+    padding: 25px;
+    border: 2px silver solid;
+    border-radius: 20px;
+    background: silver;
+    margin-right: 10px;
+    font-size: 15px;
+    font-family: "europa",sans-serif;
+    font-weight: lighter; }
 
 .locker {
   padding: 50px;

@@ -10,12 +10,12 @@ body{
   .logo{
     font-family: "europa",sans-serif;
     font-weight: lighter;
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     letter-spacing: 2px;
     span{
       color: black;
-      font-size: 15px;
+      font-size: 10px;
 
     }
   }
@@ -92,7 +92,7 @@ body{
 }
 .nav_midbod{
   background: grey;
-  padding: 50px 0px;
+  padding: 50px 25px;
 .complete-wrapper{
   h1{
     font-size: 20px;
@@ -115,7 +115,7 @@ body{
     font-weight: lighter;
     color: black;
     text-align: center;
-    font-size: 19px;
+    font-size: 13px;
     line-height: 2em;
 
   }
@@ -140,7 +140,7 @@ body{
     font-family: "europa",sans-serif;
     font-weight: lighter;
     color: grey;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: normal;
     margin: 0;
   }
@@ -150,13 +150,14 @@ body{
     font-size: 10px;
     margin:0;
     letter-spacing: 2px;
+    text-align: center;
   }
   p{
     padding: 6px 0px;
     text-align: center;
     font-family: "europa",sans-serif;
     font-weight: lighter;
-    font-size: 20px;
+    font-size: 15px;
     letter-spacing: 2px;
     color: grey;
     cursor: pointer;
@@ -187,11 +188,11 @@ body{
   color:white;
   background: grey;
   h1{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: normal;
   }
   p{
-    font-size: 20px;
+    font-size: 15px;
     font-weight: lighter;
     text-align: center;
   }

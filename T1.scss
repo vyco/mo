@@ -1,0 +1,154 @@
+@import "flex";
+@import url('https://fonts.googleapis.com/css?family=Lato|Oswald|Poppins:400,700,300,600,500|Raleway:300,400|Satisfy');
+$hint: #f9b233;
+$font:"Satisfy",sans-serif;
+
+body{
+  background: #8D8D8D;
+  margin:0;
+  padding:0;
+}
+
+.first-part{
+  padding-top: 160px;
+  height: 65vh;
+}
+.wuc{
+  font-family: "europa",sans-serif;
+  font-size: 40px;
+}
+h2{
+font-family: "europa",sans-serif;
+font-weight: 200;
+}
+.head-wrap{
+padding: 40px;
+padding-bottom: 0px;
+
+   h1{
+    font-family: "europa",sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 2px;
+    display: block;
+    text-align: center;
+    span{
+      color: black;
+      font-size: 14px;
+      padding-top: 30px;
+    }
+  }
+
+
+}
+
+  footer.foot{
+  background: black;
+  padding: 20px;
+  text-decoration: none;
+
+  h1{
+    font-family: "proxima-nova",sans-serif;
+    font-weight: 900px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+  }
+  .col{
+    margin-left: 20px;
+  }
+  .col h1{
+    font-size: 23px;
+
+  }
+  .col p{
+    font-size: 9px;
+    text-decoration: none;
+    color: grey;
+    font-family: "europa",sans-serif;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    line-height:-10px;
+
+  }
+  .un{
+
+  }
+  .un p{
+    color: grey;
+    font-family: "europa",sans-serif;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-size: 10px;
+  }
+}
+
+/* Media Queries */
+/* Tablet Version */
+@media only screen and (max-width: 768px) {
+  nav.global {
+	display: none;
+ }
+.rnav {
+	display: block;
+	float: right;
+
+ }
+
+
+ .head-wrap{
+   padding:10px;
+   h1{
+     padding-right: 200px;
+    span{
+      color: black;
+      font-size: 14px;
+      padding-top: 30px;
+    }
+  }
+ }
+ .complete-wrapper{
+   padding: 0px;
+ }
+     .first h1{
+       font-size: 46px;
+     }
+
+     .tab{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+
+     }
+     section.companies{
+       padding: 30px;
+
+       .flex-unit{
+         font-size: 10px;
+         padding: 6px;
+       }
+       .bookonline{
+         font-size: 17px;
+       }
+       .form1{
+        padding: 0px;
+
+       }
+       .form2{
+         width:60%;
+         h1{
+           font-size: 17px;
+         }
+         p{
+           font-size: 12px;
+         }
+         }
+       }
+}
+/* Mobile Version */
+@media only screen and (max-width: 480px) {
+}
